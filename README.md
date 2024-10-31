@@ -222,42 +222,35 @@ The following are the results of the project:
     PSNR - Mean: 31.62, Std: 3.51
     SSIM - Mean: 0.8757, Std: 0.0854
 
-\begin{table}[h!]
-\centering
-\begin{tabular}{c c c c}
-
-\textbf{Class}    & \textbf{Method}         & \textbf{PSNR}              & \textbf{SSIM}              \\ 
-bottle            & DMPHN                   & 27.00 $\pm$ 1.88           & 0.8623 $\pm$ 0.0066        \\ 
-                  & Encoder Decoder         & 32.00 $\pm$ 1.25           & 0.9197 $\pm$ 0.0031        \\ 
-cable             & DMPHN                   & 26.23 $\pm$ 1.31           & 0.8234 $\pm$ 0.0210        \\ 
-                  & Encoder Decoder         & 28.82 $\pm$ 1.12           & 0.8725 $\pm$ 0.0154        \\ 
-capsule           & DMPHN                   & 31.30 $\pm$ 2.92           & 0.9302 $\pm$ 0.0051        \\ 
-                  & Encoder Decoder         & 36.34 $\pm$ 1.34           & 0.9608 $\pm$ 0.0025        \\ 
-carpet            & DMPHN                   & 22.01 $\pm$ 0.37           & 0.6501 $\pm$ 0.0372        \\ 
-                  & Encoder Decoder         & 25.58 $\pm$ 0.52           & 0.8658 $\pm$ 0.0246        \\ 
-grid              & DMPHN                   & 25.71 $\pm$ 0.70           & 0.8318 $\pm$ 0.0424        \\ 
-                  & Encoder Decoder         & 29.81 $\pm$ 0.79           & 0.9367 $\pm$ 0.0110        \\ 
-hazelnut          & DMPHN                   & 31.28 $\pm$ 1.81           & 0.8927 $\pm$ 0.0141        \\ 
-                  & Encoder Decoder         & 34.12 $\pm$ 1.67           & 0.9327 $\pm$ 0.0059        \\ 
-leather           & DMPHN                   & 28.95 $\pm$ 0.80           & 0.6535 $\pm$ 0.0380        \\ 
-                  & Encoder Decoder         & 29.96 $\pm$ 1.09           & 0.6863 $\pm$ 0.0372        \\ 
-metal\_nut        & DMPHN                   & 28.20 $\pm$ 0.36           & 0.7891 $\pm$ 0.0152        \\ 
-                  & Encoder Decoder         & 30.54 $\pm$ 0.24           & 0.8539 $\pm$ 0.0135        \\ 
-pill              & DMPHN                   & 31.57 $\pm$ 1.96           & 0.8949 $\pm$ 0.0430        \\ 
-                  & Encoder Decoder         & 36.03 $\pm$ 3.17           & 0.9383 $\pm$ 0.0479        \\ 
-screw             & DMPHN                   & 30.47 $\pm$ 2.54           & 0.9326 $\pm$ 0.0122        \\ 
-                  & Encoder Decoder         & 34.39 $\pm$ 1.32           & 0.9585 $\pm$ 0.0035        \\ 
-tile              & DMPHN                   & 25.31 $\pm$ 0.64           & 0.7488 $\pm$ 0.0125        \\ 
-                  & Encoder Decoder         & 26.23 $\pm$ 0.46           & 0.7971 $\pm$ 0.0090        \\ 
-toothbrush        & DMPHN                   & 29.88 $\pm$ 1.41           & 0.8804 $\pm$ 0.0357        \\ 
-                  & Encoder Decoder         & 31.64 $\pm$ 0.54           & 0.9167 $\pm$ 0.0064        \\ 
-transistor        & DMPHN                   & 28.61 $\pm$ 0.18           & 0.8583 $\pm$ 0.0107        \\ 
-                  & Encoder Decoder         & 32.19 $\pm$ 0.81           & 0.9288 $\pm$ 0.0070        \\ 
-wood              & DMPHN                   & 27.64 $\pm$ 1.37           & 0.6383 $\pm$ 0.0353        \\ 
-                  & Encoder Decoder         & 28.84 $\pm$ 1.26           & 0.7119 $\pm$ 0.0309        \\ 
-zipper            & DMPHN                   & 28.89 $\pm$ 1.07           & 0.7231 $\pm$ 0.0094        \\ 
-                  & Encoder Decoder         & 32.48 $\pm$ 0.42           & 0.7901 $\pm$ 0.0072        \\ 
-\end{tabular}
-\caption{Class-wise PSNR and SSIM Statistics for DMPHN and Encoder Decoder Methods}
-\label{table:classwise_psnr_ssim}
-\end{table}
+| **Class**      | **Method**         | **PSNR**               | **SSIM**               |
+|----------------|--------------------|------------------------|------------------------|
+| bottle         | DMPHN              | 27.00 ± 1.88          | 0.8623 ± 0.0066        |
+|                | Encoder Decoder    | 32.00 ± 1.25          | 0.9197 ± 0.0031        |
+| cable          | DMPHN              | 26.23 ± 1.31          | 0.8234 ± 0.0210        |
+|                | Encoder Decoder    | 28.82 ± 1.12          | 0.8725 ± 0.0154        |
+| capsule        | DMPHN              | 31.30 ± 2.92          | 0.9302 ± 0.0051        |
+|                | Encoder Decoder    | 36.34 ± 1.34          | 0.9608 ± 0.0025        |
+| carpet         | DMPHN              | 22.01 ± 0.37          | 0.6501 ± 0.0372        |
+|                | Encoder Decoder    | 25.58 ± 0.52          | 0.8658 ± 0.0246        |
+| grid           | DMPHN              | 25.71 ± 0.70          | 0.8318 ± 0.0424        |
+|                | Encoder Decoder    | 29.81 ± 0.79          | 0.9367 ± 0.0110        |
+| hazelnut       | DMPHN              | 31.28 ± 1.81          | 0.8927 ± 0.0141        |
+|                | Encoder Decoder    | 34.12 ± 1.67          | 0.9327 ± 0.0059        |
+| leather        | DMPHN              | 28.95 ± 0.80          | 0.6535 ± 0.0380        |
+|                | Encoder Decoder    | 29.96 ± 1.09          | 0.6863 ± 0.0372        |
+| metal_nut      | DMPHN              | 28.20 ± 0.36          | 0.7891 ± 0.0152        |
+|                | Encoder Decoder    | 30.54 ± 0.24          | 0.8539 ± 0.0135        |
+| pill           | DMPHN              | 31.57 ± 1.96          | 0.8949 ± 0.0430        |
+|                | Encoder Decoder    | 36.03 ± 3.17          | 0.9383 ± 0.0479        |
+| screw          | DMPHN              | 30.47 ± 2.54          | 0.9326 ± 0.0122        |
+|                | Encoder Decoder    | 34.39 ± 1.32          | 0.9585 ± 0.0035        |
+| tile           | DMPHN              | 25.31 ± 0.64          | 0.7488 ± 0.0125        |
+|                | Encoder Decoder    | 26.23 ± 0.46          | 0.7971 ± 0.0090        |
+| toothbrush     | DMPHN              | 29.88 ± 1.41          | 0.8804 ± 0.0357        |
+|                | Encoder Decoder    | 31.64 ± 0.54          | 0.9167 ± 0.0064        |
+| transistor     | DMPHN              | 28.61 ± 0.18          | 0.8583 ± 0.0107        |
+|                | Encoder Decoder    | 32.19 ± 0.81          | 0.9288 ± 0.0070        |
+| wood           | DMPHN              | 27.64 ± 1.37          | 0.6383 ± 0.0353        |
+|                | Encoder Decoder    | 28.84 ± 1.26          | 0.7119 ± 0.0309        |
+| zipper         | DMPHN              | 28.89 ± 1.07          | 0.7231 ± 0.0094        |
+|                | Encoder Decoder    | 32.48 ± 0.42          | 0.7901 ± 0.0072        |
